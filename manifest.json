@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+  "name": "Naked Chrome extension",
+  "version": "0.0.1",
+  "description": "Simple and clean Chrome extension skeleton",
+  "author": "Ilija Tesic <ilija.tesic@gmail.com>",
+  "homepage_url": "https://github.com/ITesic/naked-chrome-extension",
+
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon32.png",
+    "19": "icons/icon38.png",
+    "24": "icons/icon48.png",
+    "32": "icons/icon64.png",
+    "48": "icons/icon96.png",
+    "128": "icons/icon256.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "page": "src/background/background.html",
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/content/inject.js"
+      ],
+      "css": [
+        "src/content/inject.css"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Naked Chrome extension",
+    "default_popup": "src/popup/popup.html"
+  },
+  "options_page": "src/options/options.html"
+}
