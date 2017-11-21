@@ -42,5 +42,8 @@
     "default_title": "Naked Chrome extension",
     "default_popup": "src/popup/popup.html"
   },
-  "options_page": "src/options/options.html"
+  "options_ui": {
+    "page": "src/options/options.html",
+    "chrome_style": true
+  }
 }
