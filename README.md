@@ -19,7 +19,7 @@ Build system is written in Gulp, which automatically converts SASS to CSS during
 3. Type command `gulp` to start build process and watching for changes
 
 To install extension open Extensions panel in Chrome (More Tools > Extensions) and check 'Developer Mode' option.
-Click 'Load unpacked extension' button and navigate to `<your project path>/src/`. It will install development version of NCE to your browser.
+Click 'Load unpacked extension' button and navigate to `<your project path>/`. It will install development version of NCE to your browser.
 
 Details about Chrome extension development can be found in the [official documentation](https://developer.chrome.com/extensions).
 
