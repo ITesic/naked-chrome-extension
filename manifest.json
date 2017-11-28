@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Naked Chrome extension",
-  "version": "0.0.14",
+  "version": "1.0.0",
   "description": "Simple and clean Chrome extension skeleton",
   "author": "Ilija Tesic <ilija.tesic@gmail.com>",
   "homepage_url": "https://github.com/ITesic/naked-chrome-extension",
