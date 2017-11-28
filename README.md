@@ -49,7 +49,7 @@ NCE uses modular file structure which enables development and building separate 
 Extensions are distributed through [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
 You need developer account to upload extension to Chrome Web Store. 
 
-To package extension and prepare it for distribution run command `grunt build` and after it finishes run `grunt package`.
+To package extension and prepare it for distribution run command `gulp build` and after it finishes run `gulp package`.
 Built extension will be in folder `<your project path>/dist/`.
 Packed extension will be in folder `<your project path>/package/`.
 
